@@ -1,4 +1,5 @@
-"""Write a Python program to merge them alternately — one element from s1, then one from s2.
+"""
+Write a Python program to merge them alternately — one element from s1, then one from s2.
 If one string has extra elements, append them at the end separated by " " (a space).
 
 input:
