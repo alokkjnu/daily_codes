@@ -1,5 +1,5 @@
 """
-Write a multiprocessing program using Python.
+Write a multiprocessing sample program using Python.
 """
 
 import multiprocessing
