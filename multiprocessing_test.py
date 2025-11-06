@@ -6,6 +6,7 @@ import multiprocessing
 import time
 
 def square(n):
+    
     print(n*n)
 
 def cube(n):
