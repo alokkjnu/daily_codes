@@ -6,7 +6,6 @@ s1 = "a,b,c,d"
 s2 = "e,f,g,h,i,j"
 output:
 a,e,b,f,c,g,d,h, ,i, ,j
-
 ['a', 'e', 'b', 'f', 'c', 'g', 'd', 'h', ' ', 'i', ' ', 'j']
 
 """
