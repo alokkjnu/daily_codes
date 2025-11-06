@@ -6,10 +6,11 @@ import multiprocessing
 import time
 
 def square(n):
-    
+
     print(n*n)
 
 def cube(n):
+    
     print(n*n*n)
 
 m1 = multiprocessing.Process(target=square, args=(5,))
