@@ -4,7 +4,7 @@ If one string has extra elements, append them at the end separated by " " (a spa
 s1 = "a,b,c,d"
 s2 = "e,f,g,h,i,j"
 
-output = a,e,b,f,c,g,d,h," ",i, " ",js
+output = a,e,b,f,c,g,d,h," ",i, " ",j
 """
 
 s1 = "a,b,c,d"
@@ -22,6 +22,6 @@ def merge_alternately(str1, str2):
     for i in range(len(s1)):
         res.append(s1[i])
         res.append(s2[i])
-    print(res)
+    return res # or use ','.join(res) to return as a string
 
-merge_alternately(s1, s2)
+print(merge_alternately(s1, s2))
