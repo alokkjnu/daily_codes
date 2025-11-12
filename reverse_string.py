@@ -18,3 +18,11 @@ def reverse_string(sr):
 
 print(reverse_string(s))
 
+
+def reverse_string1(sr):
+    sr = sr.split(" ")
+    res =""
+    for i in sr:
+        res  = i +" "+res
+    return res
+print(reverse_string1(s))
