@@ -1,6 +1,9 @@
-s = "Alok Kumar Maurya"
+
+#input: Alok Kumar Maurya
 
 #output: "Maurya Kumar Alok"
+
+
 
 def reverse_string(sr):
     res = ""
@@ -16,7 +19,11 @@ def reverse_string(sr):
     
     return res
 
+    
+s = "Alok Kumar Maurya"
+
 print(reverse_string(s))
+
 
 
 def reverse_string1(sr):
@@ -25,4 +32,7 @@ def reverse_string1(sr):
     for i in sr:
         res  = i +" "+res
     return res
+
+s = "Alok Kumar Maurya"
+
 print(reverse_string1(s))
