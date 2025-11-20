@@ -33,18 +33,3 @@ def quick_sort(n):
     return quick_sort(left)+mid+quick_sort(right)
 
 print(test(d))
-# def sort_ele(d):
-#     res = []
-#     mid = len(d) // 2
-#     left_side = []
-#     right_side = []
-#     for i in range(len(d)):
-#         print((d[mid]))
-#         if len(d[i]) < len(d[mid]):
-#             left_side.append(d[i])
-#         else:
-#             right_side.append(d[i])
-#     return sort_ele(left_side + d[mid] +right_side)
-#     # print(left_side + d[mid] +right_side)
-
-# print(sort_ele(d))
