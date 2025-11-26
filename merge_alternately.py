@@ -13,7 +13,6 @@ a,e,b,f,c,g,d,h, ,i, ,j
 
 """
 
-
 def merge_alternately(str1, str2):
     s1 = str1.split(',')
     s2 = str2.split(',')
