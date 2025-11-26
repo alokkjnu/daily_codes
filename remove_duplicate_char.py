@@ -4,8 +4,6 @@ input:"edfasjkbfkeaskfdnkbsafkjbdsfsadjfbsdjkfbkjasbfdkjbefb"
 output: "edfasjkbn"
 """
 
-
-
 s = "edfasjkbfkeaskfdnkbsafkjbdsfsadjfbsdjkfbkjasbfdkjbefb"
 
 
