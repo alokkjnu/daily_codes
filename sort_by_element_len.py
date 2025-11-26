@@ -18,8 +18,7 @@ def test(d):
             if len(j) == l:
                 res.append(j)
 
-    return res
-        
+    return res        
 
 def quick_sort(n):
     if len(n)<=1:
