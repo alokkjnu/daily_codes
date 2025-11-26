@@ -2,7 +2,6 @@
 
 Input: "mississippi"
 Output: {'m': 1, 'i': 4, 's': 4, 'p': 2}
-
 """
 
 def occurance_count(s):
@@ -16,6 +15,3 @@ def occurance_count(s):
 
 s = "mississippi"
 print(occurance_count(s))
-
-
-output: {'m': 1, 'i': 4, 's': 4, 'p': 2}
