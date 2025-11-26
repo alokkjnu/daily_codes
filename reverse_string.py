@@ -25,7 +25,6 @@ s = "Alok Kumar Maurya"
 print(reverse_string(s))
 
 
-
 def reverse_string1(sr):
     sr = sr.split(" ")
     res =""
