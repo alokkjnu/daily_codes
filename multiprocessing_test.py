@@ -17,4 +17,3 @@ time.sleep(10)
 
 m1.join()
 m2.join()
-g
