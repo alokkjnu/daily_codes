@@ -1,6 +1,5 @@
 """ write a program to list out files from a directory"""
 
-
 import os
 
 path = "/home/shivalok/Desktop/Daily Code/daily_codes"
