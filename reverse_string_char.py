@@ -1,6 +1,5 @@
 """ Write a program to reverse string char by char"""
 
-
 def revere_str(s):
 
     res = ""
@@ -8,7 +7,6 @@ def revere_str(s):
         res = i +res
 
     return res
-
 
 s = "Alok"
 print(revere_str(s))
