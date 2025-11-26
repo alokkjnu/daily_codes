@@ -4,7 +4,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-
 class Data(BaseModel):
     name:str
 
@@ -16,7 +15,6 @@ def test(name:Data):
         res = i+res
 
     return {"response":res}
-
 
 
 if __name__=="__main__":
