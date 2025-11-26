@@ -6,7 +6,6 @@ with alive_bar(n) as bar:
         time.sleep(0.05)
         bar()
 
-
 from tqdm import tqdm
 import time
 
