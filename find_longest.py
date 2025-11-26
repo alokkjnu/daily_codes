@@ -11,3 +11,5 @@ def find_longest(s):
             longest_len = i
     
     return res,longest_len
+
+print(find_longest(s))
