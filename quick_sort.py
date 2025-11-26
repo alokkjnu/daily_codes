@@ -10,7 +10,6 @@ def quick_sort(n):
 
     return quick_sort(left)+mid+quick_sort(right)
     
-
 input= [5,4,3,2,6,7,8,9,1]
 
 print(quick_sort(input))
