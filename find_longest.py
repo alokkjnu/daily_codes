@@ -2,11 +2,11 @@
 Write a python program to find longest word along with index in a list.
 
 """
-s = ['Happy', 'birthday', 'to', 'you']
+
 
 
 def find_longest(s):
-    
+
     res = ""
     longest_len = 0
     for i in range(len(s)):
@@ -16,4 +16,5 @@ def find_longest(s):
     
     return res,longest_len
 
+s = ['Happy', 'birthday', 'to', 'you']
 print(find_longest(s))
