@@ -3,7 +3,6 @@ Write a python program to find longest word along with index in a list.
 
 """
 
-
 def find_longest(s):
 
     res = ""
