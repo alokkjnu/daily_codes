@@ -6,6 +6,7 @@ s = ['Happy', 'birthday', 'to', 'you']
 
 
 def find_longest(s):
+    
     res = ""
     longest_len = 0
     for i in range(len(s)):
