@@ -1,5 +1,5 @@
 """ 
-Write a python program to find longest word along with index in a list.
+Write a python program to find longest word along with index id in a list.
 
 """
 
