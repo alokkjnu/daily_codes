@@ -9,6 +9,7 @@ def find_longest(s):
 
     res = ""
     longest_len = 0
+    
     for i in range(len(s)):
         if len(res) < len(s[i]):
             res = s[i]
