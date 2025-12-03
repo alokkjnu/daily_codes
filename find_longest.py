@@ -1,5 +1,5 @@
 """ 
-Find longest word and index.
+Write a python program to find longest word along with index in a list.
 """
 s = ['Happy', 'birthday', 'to', 'you']
 
