@@ -2,6 +2,7 @@
 write a api using FASTAPI to return revese of string in response.
 input:"Alok"
 output:"kolA"
+
 """
 
 from fastapi import  FastAPI,Request
