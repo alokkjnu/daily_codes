@@ -19,7 +19,6 @@ def test(name:Data):
 
     name = name.name
     res = ""
-
     for i in name:
         res = i+res
 
