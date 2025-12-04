@@ -9,11 +9,12 @@ from pydantic import BaseModel
 app = FastAPI()
 
 class Data(BaseModel):
+    
     name:str
 
 @app.post("/")
 def test(name:Data):
-    
+
     name = name.name
     res = ""
     for i in name:
