@@ -5,6 +5,7 @@ output: 3,2
 """
 
 def test(s):
+    
     mid = s//2
     first_value = mid
     second_value = mid+1
