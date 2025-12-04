@@ -2,7 +2,6 @@
 write a api using FASTAPI to return revese of string in response.
 """
 
-
 from fastapi import  FastAPI,Request
 import uvicorn
 from pydantic import BaseModel
