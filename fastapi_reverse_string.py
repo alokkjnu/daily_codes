@@ -1,5 +1,6 @@
 """
 write a api using FASTAPI to return revese of string in response.
+input:"Alok"
 """
 
 from fastapi import  FastAPI,Request
@@ -17,7 +18,7 @@ def test(name:Data):
 
     name = name.name
     res = ""
-    
+
     for i in name:
         res = i+res
 
