@@ -2,6 +2,8 @@
 5
 3,2
 Write a program to divide a number into two parts such that the first part is greater than the second part by 1.
+input: 5
+output: 3,2
 """
 
 def test(s):
