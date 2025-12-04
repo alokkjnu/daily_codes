@@ -13,6 +13,7 @@ class Data(BaseModel):
 
 @app.post("/")
 def test(name:Data):
+    
     name = name.name
     res = ""
     for i in name:
@@ -22,5 +23,5 @@ def test(name:Data):
 
 
 if __name__=="__main__":
-    
+
     uvicorn.run(app,host="127.0.0.1",port=8000)
