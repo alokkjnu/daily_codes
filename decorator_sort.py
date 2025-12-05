@@ -11,10 +11,11 @@ def remove_duplicate(func):
 
         res = func(arr)
         uniq = []
-        
+
         for i in res:
             if i not in uniq:
                 uniq.append(i)
+                
         return uniq
     return wrapper
 
