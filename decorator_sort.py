@@ -15,12 +15,13 @@ def remove_duplicate(func):
         for i in res:
             if i not in uniq:
                 uniq.append(i)
-                
+
         return uniq
     return wrapper
 
 def sort_num(func):
     def wrapper(arr):
+        
         res = func(arr)
         def quicksort(lst):
             if len(lst) <= 1:
