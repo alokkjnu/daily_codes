@@ -8,9 +8,10 @@ inp = [1,2,3,4,5,4,2,2,1,5,4,65,6,7,8,9,0,0,8,8,7,6,5,5,4,4,43]
 
 def remove_duplicate(func):
     def wrapper(arr):
-        
+
         res = func(arr)
         uniq = []
+        
         for i in res:
             if i not in uniq:
                 uniq.append(i)
