@@ -23,8 +23,9 @@ def sort_num(func):
     def wrapper(arr):
 
         res = func(arr)
-        
+
         def quicksort(lst):
+            
             if len(lst) <= 1:
                 return lst
             pivot = lst[len(lst)//2]
