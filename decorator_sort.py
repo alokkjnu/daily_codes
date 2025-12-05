@@ -25,7 +25,6 @@ def sort_num(func):
         res = func(arr)
 
         def quicksort(lst):
-
             if len(lst) <= 1:
                 return lst
 
@@ -33,7 +32,7 @@ def sort_num(func):
             left = [x for x in lst if x < pivot]
             mid = [x for x in lst if x == pivot]
             right = [x for x in lst if x > pivot]
-            
+
             return quicksort(left) + mid + quicksort(right)
 
         return quicksort(res)
