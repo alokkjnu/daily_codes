@@ -41,6 +41,7 @@ def sort_num(func):
 @remove_duplicate
 @sort_num
 def main(num):
+    
     return num
 
 print(main(inp))
