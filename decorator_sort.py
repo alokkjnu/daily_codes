@@ -28,11 +28,12 @@ def sort_num(func):
 
             if len(lst) <= 1:
                 return lst
-                
+
             pivot = lst[len(lst)//2]
             left = [x for x in lst if x < pivot]
             mid = [x for x in lst if x == pivot]
             right = [x for x in lst if x > pivot]
+            
             return quicksort(left) + mid + quicksort(right)
 
         return quicksort(res)
