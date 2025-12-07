@@ -1,4 +1,5 @@
-""" write a decorator to remove duplicate and sort the array.
+""" 
+write a decorator to remove duplicate and sort the array.
 
 input: [1,2,3,4,5,4,2,2,1,5,4,65,6,7,8,9,0,0,8,8,7,6,5,5,4,4,43]
 
