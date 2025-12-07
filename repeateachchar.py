@@ -7,7 +7,6 @@ Output: aabbbcccc
 """
 
 def repeate_letter(inp):
-    ####
 
     res = ""
     ele = ""
