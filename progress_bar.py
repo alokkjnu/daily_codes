@@ -6,6 +6,7 @@ from alive_progress import alive_bar
 import time
 
 n = 500
+
 with alive_bar(n) as bar:
     for i in range(n):
         time.sleep(0.05)
