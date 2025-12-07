@@ -1,5 +1,6 @@
 """
 Write a program to sort the list element using quick sort algorithm.
+
 """
 def quick_sort(n):
     if len(n)<=1:
