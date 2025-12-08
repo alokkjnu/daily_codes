@@ -3,6 +3,7 @@ write a Python program to repeat each letter according to its number.
 Input:  a2b3c4
 Output: aabbbcccc
 """
+
 def repeate_letter(inp):
     res = ""
     ele = ""
