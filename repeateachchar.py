@@ -3,4 +3,14 @@
 # Output: aabbbcccc
 
 def repeate_letter(inp):
-    pass
+    res = ""
+    ele = ""
+    for i in inp:
+        if i.isnumeric():
+            ele = ele*i
+            res = ele
+            ele = ""
+        else:
+            ele = i
+
+print(repeate_letter("a2b3c4"))
