@@ -13,9 +13,10 @@ def repeate_letter(inp):
             ele = str(ele)*int(i)
             res = res+ele
             ele = ""
-            
+
         else:
             ele = i
+            
     return res
 
 print(repeate_letter("a2b3c4"))
