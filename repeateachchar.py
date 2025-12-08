@@ -16,7 +16,8 @@ def repeate_letter(inp):
 
         else:
             ele = i
-            
+
     return res
 
-print(repeate_letter("a2b3c4"))
+inp = "a2b3c4"
+print(repeate_letter(inp))
