@@ -7,10 +7,11 @@ def repeate_letter(inp):
     ele = ""
     for i in inp:
         if i.isnumeric():
-            ele = ele*i
-            res = ele
+            ele = str(ele)*int(i)
+            res = res+ele
             ele = ""
         else:
             ele = i
+    return res
 
 print(repeate_letter("a2b3c4"))
