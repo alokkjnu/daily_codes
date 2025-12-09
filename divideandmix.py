@@ -18,8 +18,8 @@ def divideandmix(inp):
     for i in range(len(first_str)):
         res = res+first_str[i]
         res = res+last_str[i]
-
     return res
+    
 def reverse_str(inp):
     res = ""
     for i in inp:
