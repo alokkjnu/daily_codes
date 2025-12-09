@@ -7,7 +7,6 @@
 # odlllreoHW
 # Write a Python program to do this.
 
-
 def divideandmix(inp):
     inp_len = len(inp)
     mid = inp_len//2
