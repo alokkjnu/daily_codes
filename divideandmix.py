@@ -1,5 +1,4 @@
-# Given the word:
-# HelloWorld
+# Given the word:  "HelloWorld"
 # Divide it into two equal halves:
 # Hello
 # World
@@ -19,7 +18,7 @@ def divideandmix(inp):
         res = res+first_str[i]
         res = res+last_str[i]
     return res
-    
+
 def reverse_str(inp):
     res = ""
     for i in inp:
