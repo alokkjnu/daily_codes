@@ -3,7 +3,6 @@
 # Divide it into two equal halves:
 # Hello
 # World
-
 # Then mix both halves in such a way that the final output becomes:
 
 # odlllreoHW
