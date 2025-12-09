@@ -2,7 +2,6 @@
 
 # HelloWorld
 # Divide it into two equal halves:
-
 # Hello
 
 # World
