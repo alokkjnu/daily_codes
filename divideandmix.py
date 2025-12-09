@@ -4,7 +4,6 @@
 # World
 # Then mix both halves in such a way that the final output becomes:
 # odlllreoHW
-# Write a Python program to do this.
 
 def divideandmix(inp):
     inp_len = len(inp)
