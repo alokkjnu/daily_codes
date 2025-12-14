@@ -6,43 +6,42 @@ output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 43, 65]
 
 def remove_duplicate(func):
     def wrapper(arr):
-
         res = func(arr)
-        uniq = []
+        unique = []
 
         for i in res:
-            
-            if i not in uniq:
-                uniq.append(i)
+            if i not in unique:
+                unique.append(i)
 
-        return uniq
+        return unique
+
     return wrapper
 
-def sort_num(func):
-    def wrapper(arr):
+#method to sort the array
 
+def sort_arr(func):
+    def wrapper(arr):
         res = func(arr)
 
-        def quicksort(lst):
-            if len(lst) <= 1:
-                return lst
+        def quick_sort(res):
+            if len(res) <=1:
+                return res
+            pivote = res[len(res) // 2]
+            left = [x for x in res if x < pivote]
+            mid = [x for x in res if x == pivote]
+            right = [x for x in res if x > pivote]
 
-            pivot = lst[len(lst)//2]
-            left = [x for x in lst if x < pivot]
-            mid = [x for x in lst if x == pivot]
-            right = [x for x in lst if x > pivot]
+            return quick_sort(left) + mid + quick_sort(right)
 
-            return quicksort(left) + mid + quicksort(right)
+        return quick_sort(res)
 
-        return quicksort(res)
     return wrapper
 
 @remove_duplicate
-@sort_num
-def main(num):
+@sort_arr
+def main_method(inp):
+    return inp
 
-    return num
 
 inp = [1,2,3,4,5,4,2,2,1,5,4,65,6,7,8,9,0,0,8,8,7,6,5,5,4,4,43]
-
-print(main(inp))
+print(main_method(inp))
