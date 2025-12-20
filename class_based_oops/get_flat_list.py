@@ -30,6 +30,7 @@ class GetFlat:
 if __name__=="__main__":
 
     inp = [1, 2,[3], 4, 5,[6, 7]]
+    
     cls_obj = GetFlat(inp)
     res = cls_obj.get_flat_list()
 
