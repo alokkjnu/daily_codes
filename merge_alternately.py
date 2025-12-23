@@ -1,9 +1,13 @@
 """
-Write a Python program to merge them alternately — one element from s1, then one from s2.
-If one string has extra elements, append them at the end separated by " " (a space).
+Write a Python program to merge them alternately 
+— one element from s1, then one from s2.
+If one string has extra elements, append them a
+t the end separated by " " (a space).
+
 input:
 s1 = "a,b,c,d"
 s2 = "e,f,g,h,i,j"
+
 output:
 a,e,b,f,c,g,d,h, ,i, ,j
 ['a', 'e', 'b', 'f', 'c', 'g', 'd', 'h', ' ', 'i', ' ', 'j']
