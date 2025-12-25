@@ -1,7 +1,6 @@
 """
-Write a Python program to check,
- wheather a bracket is closed or not:
-
+Write a Python program to check if the 
+brackets in a given string are balanced.
 Input : "{([])}{}{()"
 output : True/False 
 """
