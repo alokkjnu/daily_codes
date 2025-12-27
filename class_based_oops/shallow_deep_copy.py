@@ -19,7 +19,6 @@ class ShallowDeepCopy:
 
         b = copy.copy(self.inp1)
         b[0][0] = self.inp2
-
         res = {
             "original":self.inp1,
             "copied" : b
