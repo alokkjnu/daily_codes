@@ -1,4 +1,6 @@
-"""Write a Python program to count the occurrences of each character in a string.
+"""
+Write a Python program to count the
+ occurrences of each character in a string.
 
 Input: "mississippi"
 Output: {'m': 1, 'i': 4, 's': 4, 'p': 2}
