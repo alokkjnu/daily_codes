@@ -1,6 +1,7 @@
 """
-Write a program to sort the list element using quick sort algorithm.
-
+Write a program to sort the list
+ element using quick sort algorithm.
+input= [5,4,3,2,6,7,8,9,1]
 """
 def quick_sort(n):
     
