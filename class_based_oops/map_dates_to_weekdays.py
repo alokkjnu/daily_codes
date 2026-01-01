@@ -31,9 +31,11 @@ class MapDate:
         return res
 
 if __name__ == "__main__":
+
     last_date = 31
     days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
 
     cls_obj = MapDate(days,last_date)
     res = cls_obj.map_dates_to_weekdays()
+    
     print(res)
