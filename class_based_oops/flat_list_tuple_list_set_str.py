@@ -6,22 +6,33 @@ Write a python program get flat list:
     in list
 """
 
-sl = [[1,2,3],(4,5,6),{"AD","BF","CE"},7,8]
+class FlatNestedList:
 
-def get_flat(sl):
-    a = []
+    def __init__(self,inp):
 
-    for i in sl:
-        if type(i) == list or type(i) == set or type(i) == tuple:
-            for j in i:
-                if type(j) == str:
-                    for n in j:
-                        a.append(n)
-                else:
-                    a.append(j)
-        else:
-            a.append(i)
-    return a
+        self.inp = inp
+
+    def get_flat_list(self):
+
+        res = []
+
+        for i in self.inp:
+            if  type(i) == list or type(i) == set or type(i) == tuple:
+                for j in i:
+                    if type(j) == str:
+                        for k in j:
+                            res.append(k)
+                    else:
+                        res.append(j)
+            else:
+                res.append(i)
+
+        return res
 
 
-print(get_flat(sl))
+if __name__ == "__main__":
+
+    inp = [[1,2,3],(4,5,6),{"AD","BF","CE"},7,8]
+    cls_obj = FlatNestedList(inp)
+    res = cls_obj.get_flat_list()
+    print(res)
