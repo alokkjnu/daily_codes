@@ -1,10 +1,11 @@
-"""write a program to remove duplicate from string without using set or inbuit method
+"""write a program to remove duplicate
+from string without using set or inbuit method
 
-input:"edfasjkbfkeaskfdnkbsafkjbdsfsadjfbsdjkfbkjasbfdkjbefb"
+input:"edfasjkbfkeaskfdnkbsafkjbdsf"
 output: "edfasjkbn"
 """
 
-s = "edfasjkbfkeaskfdnkbsafkjbdsfsadjfbsdjkfbkjasbfdkjbefb"
+input="edfasjkbfkeaskfdnkbsafkjbdsf"
 
 
 def remove_duplicate_str(s):
@@ -17,4 +18,4 @@ def remove_duplicate_str(s):
     res = ''.join(res)
     return res
 
-print(remove_duplicate_str(s))
+print(remove_duplicate_str(input))
