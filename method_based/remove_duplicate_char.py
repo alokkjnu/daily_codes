@@ -1,4 +1,5 @@
-"""write a program to remove duplicate
+"""
+write a program to remove duplicate
 from string without using set or inbuit method
 
 input:"edfasjkbfkeaskfdnkbsafkjbdsf"
