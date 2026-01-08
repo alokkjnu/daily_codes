@@ -3,7 +3,7 @@ Write a Python program to get
 second max element from array.
 input = [2,4,5,6,3,2,2,4,5,7,
             8,9,0,32,55,34,55,44]
-
+output = 44
 """
 class SecondMax:
 
