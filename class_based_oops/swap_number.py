@@ -7,9 +7,6 @@ output: a=4, b=5
 """
 
 class SwapNumbers:
-    """
-    Docstring for SwapNumbers
-    """
 
     def __init__(self,a,b):
 
@@ -17,23 +14,19 @@ class SwapNumbers:
         self.b = b
 
     def swap_numbers(self):
-        """
-        Docstring for swap_numbers
-        
-        :param self: Description
-        """
 
-        a = self.a + self.b
+        a = self.a + self.b 
+
         b = a - self.b
         a = a - b
 
         return a,b
-
+    
 
 if __name__ == "__main__":
 
-    A = 5
-    B = 4
-    cls_obj = SwapNumbers(A,B)
+    a = 5
+    b = 4
+    cls_obj = SwapNumbers(a,b)
     res = cls_obj.swap_numbers()
     print(res)
