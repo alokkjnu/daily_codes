@@ -9,7 +9,6 @@ users = [
 ]
 """
 
-
 class SortList:
 
     def __init__(self,inp):
@@ -18,18 +17,18 @@ class SortList:
 
     def sort_list(self):
 
-        self.inp.sort(key = lambda x: x['name'])
+        self.inp.sort(key = lambda x:x['name'])
 
         return self.inp
-
+    
 
 if __name__ == "__main__":
 
-    inp = [
+    users = [
     {"name": "Alok", "age": 25},
     {"name": "Rahul", "age": 30},
     {"name": "Priya", "age": 28}
-]
-    cls_obj = SortList(inp)
+]   
+    cls_obj = SortList(users)
     res = cls_obj.sort_list()
     print(res)
