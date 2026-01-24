@@ -17,6 +17,7 @@ inp3 = collector
 
 inp = "statistics"
 def test(inp):
+    
     for i in range(len(inp)):
         previous_char = inp[:i]
         new_char = inp[i+1:]
