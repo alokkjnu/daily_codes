@@ -7,6 +7,7 @@ input= [5,4,3,2,6,7,8,9,1]
 class MergeSort:
 
     def merge_sort(self,inp):
+        
         if len(inp) <=1:
             return inp
         
@@ -45,5 +46,5 @@ if __name__ == "__main__":
     inp = [5,4,3,2,6,7,8,9,1]
     cls_obj = MergeSort()
     res = cls_obj.merge_sort(inp)
-    
+
     print(res)
