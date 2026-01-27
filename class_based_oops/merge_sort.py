@@ -41,6 +41,7 @@ class MergeSort:
         return sorted_list
 
 if __name__ == "__main__":
+    
     inp = [5,4,3,2,6,7,8,9,1]
     cls_obj = MergeSort()
     res = cls_obj.merge_sort(inp)
