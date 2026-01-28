@@ -18,6 +18,7 @@ class MergeSort:
         right = self.merge_sort(right)
 
         return self.merge(left,right)
+    
     @staticmethod
     def merge(left,right):
 
