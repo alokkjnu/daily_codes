@@ -17,11 +17,12 @@ class FindSubArrSum:
         total_sum = 0
 
         for i in range(self.inp_len):
+            
             sub_arr_sum = 0
             for j in range(i,self.inp_len):
                 sub_arr_sum += self.inp[j]
                 total_sum += sub_arr_sum
-                
+
         return total_sum
     
 if __name__ == "__main__":
