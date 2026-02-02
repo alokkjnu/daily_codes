@@ -26,7 +26,8 @@ class FindSubArrSum:
 if __name__ == "__main__":
 
     inp = [1,2,3,4,5,6,7,8]
+    
     cls_ob = FindSubArrSum(inp)
     res = cls_ob.find_sum()
-    
+
     print(res)
